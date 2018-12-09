@@ -268,7 +268,6 @@ p {
 
 li p {
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-style: italic
 }
 
 a {
@@ -432,7 +431,7 @@ a:hover {
     margin-left: -100px;
     margin-top: -60px;
     text-align: center;
-    color: #446cb3;
+    color: #5283c8;
     font-size: 120px;
     line-height: 120px;
     font-family: "Open Sans", Tahoma, Verdana, Arial, sans-serif
@@ -451,7 +450,7 @@ a:hover {
     left: 0;
     height: 40px;
     overflow: hidden;
-    background-color: #446cb3;
+    background-color: #5283c8;
     width: 100%;
     margin: 0 0;
     clear: both;
@@ -584,7 +583,7 @@ a:hover {
     letter-spacing: -5px;
     font-weight: 700;
     text-align: center;
-    background-color: #446cb3;
+    background-color: #5283c8;
     border: none
 }
 
@@ -594,7 +593,7 @@ a:hover {
     bottom: -29px;
     left: 0;
     z-index: 250;
-    border-top: 30px solid #446cb3;
+    border-top: 30px solid #5283c8;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
@@ -763,7 +762,8 @@ a:hover {
 
 .about-section__card-header {
     padding: 20px;
-    background-color: #446cb3
+    background-color: #5283c8;
+    text-align: center;
 }
 
 .about-section__card-header h2,
@@ -840,13 +840,13 @@ a:hover {
 }
 
 .services__item:hover:before {
-    color: #446cb3
+    color: #5283c8
 }
 
 .advantages {
     text-align: center;
-    border-left: 10px solid #446cb3;
-    border-right: 10px solid #446cb3;
+    border-left: 10px solid #5283c8;
+    border-right: 10px solid #5283c8;
     float: left;
     width: 98%;
     width: -webkit-calc(100% - 40px);
@@ -876,7 +876,7 @@ a:hover {
     display: block;
     width: 30%;
     height: 10px;
-    background-color: #446cb3
+    background-color: #5283c8
 }
 
 .advantages h2:before {
@@ -889,7 +889,7 @@ a:hover {
 
 .advantages blockquote {
     padding: 40px 0;
-    border-bottom: 10px solid #446cb3
+    border-bottom: 10px solid #5283c8
 }
 
 .advantages blockquote p,
@@ -981,12 +981,12 @@ a:hover {
 
 .process__step:hover>.process__step-icon,
 .process__step:hover>.process__step-icon.is-active {
-    border-color: #446cb3
+    border-color: #5283c8
 }
 
 .process__step:hover>.process__step-icon:before,
 .process__step:hover>.process__step-icon.is-active:before {
-    text-shadow: -1px -1px 0 #446cb3, 0 -1px 0 #446cb3, 1px -1px 0 #446cb3, 1px 0 0 #446cb3, 1px 1px 0 #446cb3, 0 1px 0 #446cb3, -1px 1px 0 #446cb3, -1px 0 0 #446cb3
+    text-shadow: -1px -1px 0 #5283c8, 0 -1px 0 #5283c8, 1px -1px 0 #5283c8, 1px 0 0 #5283c8, 1px 1px 0 #5283c8, 0 1px 0 #5283c8, -1px 1px 0 #5283c8, -1px 0 0 #5283c8
 }
 
 .process__step:hover+.process__step-info {
@@ -1047,11 +1047,11 @@ a:hover {
 }
 
 .process__step-icon.is-active {
-    border-color: #446cb3
+    border-color: #5283c8
 }
 
 .process__step-icon.is-active:before {
-    text-shadow: -1px -1px 0 #446cb3, 0 -1px 0 #446cb3, 1px -1px 0 #446cb3, 1px 0 0 #446cb3, 1px 1px 0 #446cb3, 0 1px 0 #446cb3, -1px 1px 0 #446cb3, -1px 0 0 #446cb3
+    text-shadow: -1px -1px 0 #5283c8, 0 -1px 0 #5283c8, 1px -1px 0 #5283c8, 1px 0 0 #5283c8, 1px 1px 0 #5283c8, 0 1px 0 #5283c8, -1px 1px 0 #5283c8, -1px 0 0 #5283c8
 }
 
 .process__step-info {
@@ -1064,7 +1064,7 @@ a:hover {
     margin: 40px 0 50px;
     padding: 10px;
     background-color: #fff;
-    border-top: 10px solid #446cb3;
+    border-top: 10px solid #5283c8;
     -webkit-box-shadow: 2px 2px 4px -2px #111;
     box-shadow: 2px 2px 4px -2px #111
 }
@@ -1086,7 +1086,7 @@ a:hover {
     top: -40px;
     left: 12.5%;
     margin-left: -40px;
-    border-bottom: 40px solid #446cb3;
+    border-bottom: 40px solid #5283c8;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
@@ -1204,7 +1204,7 @@ a:hover {
     display: inline-block;
     width: 90%;
     font-size: 25px;
-    color: #446cb3;
+    color: #5283c8;
     vertical-align: middle;
     white-space: normal;
     border-bottom: none
@@ -1274,7 +1274,7 @@ a:hover {
     top: -5px;
     left: -25px;
     font-size: 20px;
-    color: #446cb3
+    color: #5283c8
 }
 
 .testimonials__item blockquote cite {
@@ -1285,7 +1285,7 @@ a:hover {
 }
 
 .testimonials__item blockquote cite span.name {
-    color: #446cb3
+    color: #5283c8
 }
 
 .testimonials__item blockquote cite span.role {
@@ -1363,7 +1363,7 @@ a:hover {
 
 .contact-card__header {
     padding: 20px;
-    background-color: #446cb3
+    background-color: #5283c8
 }
 
 .contact-card__header h2,
@@ -1382,7 +1382,7 @@ a:hover {
 
 .contact-info__logo {
     display: inline-block;
-    color: #446cb3;
+    color: #5283c8;
     font-size: 80px;
     line-height: 60px;
     letter-spacing: -5px;
@@ -1526,7 +1526,7 @@ a:hover {
     position: relative;
     z-index: 100;
     width: 100%;
-    background-color: #446cb3;
+    background-color: #5283c8;
     color: #fff;
     -webkit-box-shadow: 0 -2px 2px -1px #111;
     box-shadow: 0 -2px 2px -1px #111
@@ -1538,7 +1538,7 @@ a:hover {
     top: -30px;
     left: 50%;
     margin-left: -40px;
-    border-bottom: 40px solid #446cb3;
+    border-bottom: 40px solid #5283c8;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
