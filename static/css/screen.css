@@ -548,7 +548,7 @@ a:hover {
 }
 
 .second-nav {
-    position: relative;
+    position: fixed;
     min-height: 80px;
     background-color: #fff;
     width: 100%;
