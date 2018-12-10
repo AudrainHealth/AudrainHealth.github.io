@@ -1673,7 +1673,12 @@ a:hover {
     }
 
     .menu {
-        text-align: center
+        text-align: center;
+        display: none
+    }
+
+    .main-header {
+        display: none;
     }
 
     .menu li {
@@ -1687,6 +1692,18 @@ a:hover {
         font-size: 18px;
         line-height: 2;
         border-bottom: none
+    }
+
+    .home-section__overlay {
+        min-height: 80%;
+    }
+
+    .home-section__header {
+        padding: 100px 10px 300px;
+    }
+
+    .about-section {
+        margin-top: -150px;
     }
 
     .advantages h2:before,
