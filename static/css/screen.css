@@ -1337,14 +1337,14 @@ a:hover {
     text-align: left
 }
 
-.contacts-section {
+/*.contacts-section {
     position: relative;
     padding-top: 300px
-}
+}*/
 
 .contact-card {
-    position: absolute;
-    top: -200px;
+/*    position: absolute;
+    top: -200px; */
     z-index: 50;
     -webkit-box-shadow: 2px 2px 4px -2px #111;
     box-shadow: 2px 2px 4px -2px #111;
@@ -1410,6 +1410,11 @@ a:hover {
     font-style: italic;
     font-family: "Calibri", sans-serif;
     line-height: 1.5
+}
+
+.contact-info__additional h4 {
+    margin-bottom: 10px;
+    font-weight: 700;
 }
 
 .contact-info__vcard h4 {
@@ -1526,6 +1531,7 @@ a:hover {
 }
 
 .main-footer {
+    margin-top: 120px;
     position: relative;
     z-index: 100;
     width: 100%;
