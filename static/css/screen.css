@@ -572,6 +572,16 @@ a:hover {
     margin-top: -40px
 }
 
+.second-nav.nav-dark {
+    background-color: #5283c8;
+    color: white;
+}
+
+.second-nav.nav-dark a {
+    color: white;
+    border-bottom: 1px dashed rgb(209, 209, 209);
+}
+
 .second-nav__logo {
     display: block;
     position: absolute;
@@ -819,6 +829,10 @@ a:hover {
 
 .services__item {
     margin-bottom: 50px
+}
+
+.services__item:last-child {
+    margin-bottom: auto;
 }
 
 .services__item h4 {
