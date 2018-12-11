@@ -836,6 +836,9 @@ a:hover {
 }
 
 .services__item h4 {
+    color: #fdfdfd;
+    background-color: #0f7dd5;
+    padding: 0.25em 0 0.15em 0.3em;
     margin-left: 80px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -847,7 +850,7 @@ a:hover {
 }
 
 .services__item:before {
-    margin-top: 30px;
+    margin-top: 40px;
     float: left;
     font-size: 60px;
     color: #0f7dd5;
