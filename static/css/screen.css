@@ -780,7 +780,7 @@ a:hover {
 
 .about-section__card-header h2,
 .about-section__card-header h4 {
-    color: #fff
+    color: #fdfdfd;
 }
 
 .about-section__card-info {
@@ -1236,7 +1236,6 @@ a:hover {
 
 .testimonials {
     list-style-type: none;
-    float: left;
     width: 98%;
     width: -webkit-calc(100% - 40px);
     width: calc(100% - 40px);
@@ -1249,6 +1248,14 @@ a:hover {
     height: auto;
     margin-top: 0;
     margin-bottom: 0
+}
+
+@media screen and (min-width: 960px) {
+    .testimonials {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .testimonials__item {
@@ -1364,7 +1371,7 @@ a:hover {
 
 .contact-card__header h2,
 .contact-card__header h4 {
-    color: #fff
+    color: #fdfdfd;
 }
 
 .contact-info {
