@@ -849,14 +849,9 @@ a:hover {
 .services__item:before {
     margin-top: 30px;
     float: left;
-    color: #aaa;
     font-size: 60px;
-    -webkit-transition: color .5s;
-    transition: color .5s
-}
-
-.services__item:hover:before {
-    color: #0f7dd5
+    color: #0f7dd5;
+    font-family: FontAwesome;
 }
 
 .advantages {
@@ -1260,24 +1255,6 @@ a:hover {
 
 .testimonials__item:last-child {
     margin-bottom: 0
-}
-
-.testimonials__item img {
-    display: block;
-    max-width: 100px;
-    max-height: 100px;
-    float: left;
-    opacity: .6;
-    -webkit-transition: opacity .5s;
-    transition: opacity .5s
-}
-
-.testimonials__item:hover img {
-    opacity: 1
-}
-
-.testimonials__item blockquote {
-    margin-left: 140px
 }
 
 .testimonials__item blockquote p {
