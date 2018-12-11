@@ -433,7 +433,7 @@ a:hover {
     margin-left: -100px;
     margin-top: -60px;
     text-align: center;
-    color: #5283c8;
+    color: #009cff;
     font-size: 120px;
     line-height: 120px;
     font-family: "Calibri", sans-serif;
@@ -452,7 +452,7 @@ a:hover {
     left: 0;
     height: 40px;
     overflow: hidden;
-    background-color: #5283c8;
+    background-color: #009cff;
     width: 100%;
     margin: 0 0;
     clear: both;
@@ -573,7 +573,7 @@ a:hover {
 }
 
 .second-nav.nav-dark {
-    background-color: #5283c8;
+    background-color: #009cff;
     color: white;
 }
 
@@ -595,7 +595,7 @@ a:hover {
     letter-spacing: -5px;
     font-weight: 700;
     text-align: center;
-    background-color: #5283c8;
+    background-color: #009cff;
     border: none
 }
 
@@ -605,7 +605,7 @@ a:hover {
     bottom: -29px;
     left: 0;
     z-index: 250;
-    border-top: 30px solid #5283c8;
+    border-top: 30px solid #009cff;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
@@ -774,7 +774,7 @@ a:hover {
 
 .about-section__card-header {
     padding: 20px;
-    background-color: #5283c8;
+    background-color: #009cff;
     text-align: center;
 }
 
@@ -856,13 +856,13 @@ a:hover {
 }
 
 .services__item:hover:before {
-    color: #5283c8
+    color: #009cff
 }
 
 .advantages {
     text-align: center;
-    border-left: 10px solid #5283c8;
-    border-right: 10px solid #5283c8;
+    border-left: 10px solid #009cff;
+    border-right: 10px solid #009cff;
     float: left;
     width: 98%;
     width: -webkit-calc(100% - 40px);
@@ -892,7 +892,7 @@ a:hover {
     display: block;
     width: 30%;
     height: 10px;
-    background-color: #5283c8
+    background-color: #009cff
 }
 
 .advantages h2:before {
@@ -905,7 +905,7 @@ a:hover {
 
 .advantages blockquote {
     padding: 40px 0;
-    border-bottom: 10px solid #5283c8
+    border-bottom: 10px solid #009cff
 }
 
 .advantages blockquote p,
@@ -997,12 +997,12 @@ a:hover {
 
 .process__step:hover>.process__step-icon,
 .process__step:hover>.process__step-icon.is-active {
-    border-color: #5283c8
+    border-color: #009cff
 }
 
 .process__step:hover>.process__step-icon:before,
 .process__step:hover>.process__step-icon.is-active:before {
-    text-shadow: -1px -1px 0 #5283c8, 0 -1px 0 #5283c8, 1px -1px 0 #5283c8, 1px 0 0 #5283c8, 1px 1px 0 #5283c8, 0 1px 0 #5283c8, -1px 1px 0 #5283c8, -1px 0 0 #5283c8
+    text-shadow: -1px -1px 0 #009cff, 0 -1px 0 #009cff, 1px -1px 0 #009cff, 1px 0 0 #009cff, 1px 1px 0 #009cff, 0 1px 0 #009cff, -1px 1px 0 #009cff, -1px 0 0 #009cff
 }
 
 .process__step:hover+.process__step-info {
@@ -1063,11 +1063,11 @@ a:hover {
 }
 
 .process__step-icon.is-active {
-    border-color: #5283c8
+    border-color: #009cff
 }
 
 .process__step-icon.is-active:before {
-    text-shadow: -1px -1px 0 #5283c8, 0 -1px 0 #5283c8, 1px -1px 0 #5283c8, 1px 0 0 #5283c8, 1px 1px 0 #5283c8, 0 1px 0 #5283c8, -1px 1px 0 #5283c8, -1px 0 0 #5283c8
+    text-shadow: -1px -1px 0 #009cff, 0 -1px 0 #009cff, 1px -1px 0 #009cff, 1px 0 0 #009cff, 1px 1px 0 #009cff, 0 1px 0 #009cff, -1px 1px 0 #009cff, -1px 0 0 #009cff
 }
 
 .process__step-info {
@@ -1080,7 +1080,7 @@ a:hover {
     margin: 40px 0 50px;
     padding: 10px;
     background-color: #fff;
-    border-top: 10px solid #5283c8;
+    border-top: 10px solid #009cff;
     -webkit-box-shadow: 2px 2px 4px -2px #111;
     box-shadow: 2px 2px 4px -2px #111
 }
@@ -1102,7 +1102,7 @@ a:hover {
     top: -40px;
     left: 12.5%;
     margin-left: -40px;
-    border-bottom: 40px solid #5283c8;
+    border-bottom: 40px solid #009cff;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
@@ -1220,7 +1220,7 @@ a:hover {
     display: inline-block;
     width: 90%;
     font-size: 25px;
-    color: #5283c8;
+    color: #009cff;
     vertical-align: middle;
     white-space: normal;
     border-bottom: none
@@ -1290,7 +1290,7 @@ a:hover {
     top: -5px;
     left: -25px;
     font-size: 20px;
-    color: #5283c8
+    color: #009cff
 }
 
 .testimonials__item blockquote cite {
@@ -1301,7 +1301,7 @@ a:hover {
 }
 
 .testimonials__item blockquote cite span.name {
-    color: #5283c8
+    color: #009cff
 }
 
 .testimonials__item blockquote cite span.role {
@@ -1379,7 +1379,7 @@ a:hover {
 
 .contact-card__header {
     padding: 20px;
-    background-color: #5283c8
+    background-color: #009cff
 }
 
 .contact-card__header h2,
@@ -1398,7 +1398,7 @@ a:hover {
 
 .contact-info__logo {
     display: inline-block;
-    color: #5283c8;
+    color: #009cff;
     font-size: 80px;
     line-height: 60px;
     letter-spacing: -5px;
@@ -1549,7 +1549,7 @@ a:hover {
     position: relative;
     z-index: 100;
     width: 100%;
-    background-color: #5283c8;
+    background-color: #009cff;
     color: #fff;
     -webkit-box-shadow: 0 -2px 2px -1px #111;
     box-shadow: 0 -2px 2px -1px #111
@@ -1561,7 +1561,7 @@ a:hover {
     top: -30px;
     left: 50%;
     margin-left: -40px;
-    border-bottom: 40px solid #5283c8;
+    border-bottom: 40px solid #009cff;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent
 }
