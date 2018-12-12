@@ -45,8 +45,9 @@ window.addEventListener('scroll', function(event) {
 /** End Scrolling **/
 
 function closePDF() {
-    if (!pdfContainer.classList.contains('hidden')) {
-        pdfContainer.classList.add('hidden');
+    if (!pdfViewer.classList.contains('hidden')) {
+        pdfViewer.classList.add('hidden');
+        pdfCloseButton.classList.add('hidden');
     }
 }
 
@@ -55,8 +56,9 @@ pdfCloseButton.addEventListener('click', closePDF);
 /** PDF Embeds **/
 function loadPDF(url) {
     return function doLoadPDF() {
-        if (pdfContainer.classList.contains('hidden')) {
-            pdfContainer.classList.remove('hidden');
+        if (pdfViewer.classList.contains('hidden')) {
+            pdfViewer.classList.remove('hidden');
+            pdfCloseButton.classList.remove('hidden');
         }
         pdfViewer.contentDocument.location = url;
         pdfViewer.scrollIntoView({behavior:'smooth'});

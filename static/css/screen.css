@@ -206,21 +206,36 @@ body {
     text-align: center;
 }
 
-.hidden {
-    display: none;
-}
-
 #pdf-embed {
     width: 100%;
-    min-height: 80vh;
+    height: 80vh;
     margin-top: 50px;
     margin-bottom: 10px;
+    overflow: hidden;
+    max-height: 80vh;
+    transition: max-height 0.5s ease-out;
+}
+
+#pdf-embed.hidden {
+    max-height: 0;
+}
+
+#close-pdf {
+    transition: opacity 0.5s ease-out;
+}
+
+#close-pdf.hidden {
+    opacity: 0;
 }
 
 #support-us {
     font-size: 22px;
     color: #4e4e4e;
     font-weight: bold;
+}
+
+.common-section#voices {
+    padding-top: 80px;
 }
 
 .container {
