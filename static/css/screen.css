@@ -202,6 +202,21 @@ body {
     margin:auto;
 }
 
+.pdf-viewer {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#pdf-embed {
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 #support-us {
     font-size: 22px;
     color: #4e4e4e;

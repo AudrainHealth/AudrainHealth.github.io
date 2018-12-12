@@ -106,13 +106,13 @@
     <div class="projects-wrap">
         <div class="grid-container">
             <div class="projects">
-                <figure class="projects__item"><img src="static/images/projects/1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
+                <figure class="projects__item"><img src="static/images/projects/1.jpg" alt="">
                 </figure>
-                <figure class="projects__item"><img src="static/images/projects/2.jpg" alt="Donec lobortis, est iaculis rutrum feugiat">
+                <figure class="projects__item"><img src="static/images/projects/2.jpg" alt="">
                 </figure>
-                <figure class="projects__item"><img src="static/images/projects/5.jpg" alt="Duis feugiat, metus eu ullamcorper accumsan, massa risus dictum nisi">
+                <figure class="projects__item"><img src="static/images/projects/5.jpg" alt="">
                 </figure>
-                <figure class="projects__item"><img src="static/images/projects/6.jpg" alt="Donec non ligula imperdiet, tincidunt quam ut, pellentesque nisi">
+                <figure class="projects__item"><img src="static/images/projects/6.jpg" alt="">
                 </figure>
             </div>
         </div>
@@ -130,7 +130,7 @@
             <h4>What's Being Proposed?</h4>
             <p>SSM Health has proposed selling the existing hospital in Audrain County to MU Health Care. They are
               currently in exclusive negotiations, and MU Health Care has signed a letter of intent to purchase the
-              hospital and its related clinics… <a href="/static/Long%20format%20Proposal.pdf">READ MORE.</a></p>
+              hospital and its related clinics… <a id="link-proposal">READ MORE.</a></p>
           </li>
           <li class="services__item fa-search">
             <h4>The Issues</h4>
@@ -138,13 +138,13 @@
               and
               a reasonable plan for transition. Before any sale can be completed, these are some of the issues that
               will
-              need to be addressed… <a href="/static/Long%20format%20Issues.pdf">READ MORE.</a></p>
+              need to be addressed… <a id="link-issues">READ MORE.</a></p>
           </li>
           <li class="services__item fa-hospital-o">
             <h4>What Is At Stake?</h4>
             <p>Convenient access to quality health care, jobs, economic development recruitment efforts, the local
               economy and continued investment in our local hospital are just a few of the important factors as we
-              consider a new owner for our local hospital… <a href="/static/What's%20at%20Stake%20Long%20Format.pdf">READ
+              consider a new owner for our local hospital… <a id="link-whats-at-stake">READ
                 MORE.</a></p>
           </li>
         </ul>
@@ -152,14 +152,14 @@
           <li class="services__item fa-question">
             <h4>Frequently Asked Questions</h4>
             <p>When major changes occur in any community, people always have questions. Here are some of the
-              questions that have been asked so far – along with some helpful answers… <a href="/static/Audrain%20FAQ%20formatted.pdf">READ
+              questions that have been asked so far – along with some helpful answers… <a id="link-audrain-faq">READ
                 MORE.</a></p>
           </li>
           <li class="services__item fa-book">
             <h4>News and Publications</h4>
             <p>Access to quality health care is a cornerstone of maintaining a healthy and vibrant community. Here are
               news articles and studies that detail the importance of community hospitals and the kinds of problems
-              that can occur when local access is limited or not available at all… <a href="/static/News%20and%20Information%20PDF%20with%20links.pdf">READ
+              that can occur when local access is limited or not available at all… <a id="link-news-and-information">READ
                 MORE</a>.
             </p>
           </li>
@@ -173,7 +173,10 @@
             </p>
           </li>
         </ul>
-
+        <div class="pdf-viewer hidden">
+          <iframe id="pdf-embed" src="/static/News%20and%20Information%20PDF%20with%20links.pdf"></iframe>
+          <a id="close-pdf">Close PDF</a>
+        </div>
       </div>
     </div>
     </div>
