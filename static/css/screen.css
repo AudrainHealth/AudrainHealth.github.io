@@ -204,6 +204,7 @@ body {
 
 .pdf-viewer {
     text-align: center;
+    grid-column-end: span 4;
 }
 
 #pdf-embed {
@@ -235,7 +236,7 @@ body {
 }
 
 .common-section#voices {
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 a[id^=link], #close-pdf {
