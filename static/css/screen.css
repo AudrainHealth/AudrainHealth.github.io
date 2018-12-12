@@ -238,6 +238,10 @@ body {
     padding-top: 80px;
 }
 
+a[id^=link], #close-pdf {
+    cursor: pointer;
+}
+
 .container {
     position: relative;
     max-width: 1200px;
