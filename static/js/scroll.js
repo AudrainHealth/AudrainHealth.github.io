@@ -1,12 +1,10 @@
 let last = 0;
 let tick = false;
 let issue = document.querySelector('#issue');
-let news = document.querySelector('#news');
 let nav = document.querySelector('#second-nav');
 
 function updateNavbar(position) {
-    let average = (issue.offsetTop * 2 + news.offsetTop) / 3;
-    if (position > average) {
+    if (position > issue.offsetTop) {
         if (nav.classList.contains('nav-dark')) {
             return;
         } else {
