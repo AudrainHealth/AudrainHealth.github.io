@@ -59,7 +59,7 @@ function loadPDF(url) {
             pdfContainer.classList.remove('hidden');
         }
         pdfViewer.contentDocument.location = url;
-        pdfViewer.scrollIntoView();
+        pdfViewer.scrollIntoView({behavior:'smooth'});
     }
 }
 
