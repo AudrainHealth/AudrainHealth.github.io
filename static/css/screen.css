@@ -197,6 +197,11 @@ body {
     margin-top: -0.1em;
 }
 
+.petition-link img {
+    display: block;
+    margin:auto;
+}
+
 #support-us {
     font-size: 22px;
     color: #4e4e4e;
