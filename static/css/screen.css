@@ -157,6 +157,42 @@ body {
     background: #fff
 }
 
+.what-you-can-do {
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+}
+
+.wycd-icon {
+    grid-column-end: span 1;
+    align-self: start;
+    justify-self: center;
+    color: #0f7dd5;
+}
+
+.wycd-title {
+    grid-column-end: span 1;
+}
+
+.wycd-text {
+    grid-column-end: span 1;
+    padding-bottom: 2em;
+}
+
+.wycd-title h4 {
+    color: #0f7dd5;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.wycd-placeholder {
+    grid-column-end: span 1;
+}
+
+.petition-link {
+    break-inside: avoid;
+    border-bottom: none;
+}
+
 .container {
     position: relative;
     max-width: 1200px;
